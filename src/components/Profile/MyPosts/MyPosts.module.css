@@ -1,0 +1,13 @@
+
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h3 {
+  margin: 0 0 10px;
+  color: #ddd;
+  font-weight: 500;
+}
