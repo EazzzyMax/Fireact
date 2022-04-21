@@ -5,16 +5,6 @@
   border-radius: 10px;
 }
 
-.dialog_list {
-  background-color: #2c2c3a;
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  overflow: hidden;
-  height: max-content;
-}
-
 
 .message_list {
   background-color: #2c2c3a;

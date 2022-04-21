@@ -1,22 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Dialog from './Dialog/Dialog';
+import DialogList from './DialogList/DialogList';
 import classes from './Dialogs.module.css';
 
 const Dialogs = () => {
-
-
-
-
-
   return (
     <div className={classes.dialogs}>
-      <div className={classes.dialog_list}>
-        <Dialog></Dialog>
-        <Dialog></Dialog>
-        <Dialog></Dialog>
-        <Dialog></Dialog>
-      </div>
+      <DialogList/>
       <div className={classes.message_list}>
         <p className={classes.message}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, exercitationem.
