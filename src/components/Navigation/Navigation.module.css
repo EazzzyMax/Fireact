@@ -2,7 +2,7 @@
   height: max-content;
   /* background-color: #2C2C3A; */
   border-radius: 10px;
-  padding: 8px 16px
+  padding-left: 15px;
 }
 
 li {
@@ -10,9 +10,6 @@ li {
   position: relative;
 }
 
-.active {
-  /* color:  red; */
-}
 
 .active::before {
   content: '•';

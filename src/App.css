@@ -13,8 +13,9 @@ ul {
 
 main {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   max-width: 1200px;
   margin: auto;
   padding: 10px;
+  min-height: calc(100vh - 80px)
 }

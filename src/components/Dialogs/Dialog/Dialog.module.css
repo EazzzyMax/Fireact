@@ -1,0 +1,36 @@
+
+.dialog {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  color: white;
+}
+
+.dialog:hover {
+  background-color: #39394B;
+  cursor: pointer;
+}
+
+.dialog:active {
+  background-color: #45455C; 
+}
+
+.active .dialog {
+  background-color: #565673;
+}
+.active .dialog:active {
+  background-color: #66668a;
+}
+
+
+.dialog:not(:first-child):before {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  content: '';
+  top: 0;
+  left: 0;
+}
