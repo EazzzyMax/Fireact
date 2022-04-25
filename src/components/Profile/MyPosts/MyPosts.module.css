@@ -11,3 +11,15 @@ h3 {
   color: #ddd;
   font-weight: 500;
 }
+
+.postForm {
+  display: flex;
+  direction: row;
+  align-items: center;
+}
+
+.postForm_button {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}

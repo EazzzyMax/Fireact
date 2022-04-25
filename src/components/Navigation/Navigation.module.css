@@ -7,15 +7,27 @@
 
 li {
   margin: 8px 0;
-  position: relative;
+  width: min-content;;
+  color: black;
 }
 
+a {
+  color: rgba(255, 255, 255, 0.4)
+}
 
-.active::before {
+a:hover {
+  color: rgba(255, 255, 255, 0.8)
+}
+
+a.active {
+  color: pink;
+}
+
+/* .active::before {
   content: '•';
   position: absolute;
   left: -12px;
-  /* width: 20px;
+  width: 20px;
   height: 20px;
-  background-color: red; */
-}
+  background-color: red;
+} */

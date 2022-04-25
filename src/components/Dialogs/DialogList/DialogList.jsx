@@ -21,6 +21,7 @@ const DialogList = () => {
       id: '4',
     },
   ];
+  
   return (
     <div className={classes.dialog_list}>
       {dialogsData.map((dialog) => (
