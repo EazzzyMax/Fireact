@@ -1,5 +1,5 @@
 import React from 'react';
-import MyPosts from './MyPosts/MyPosts';
+import MyPosts from './PostList/PostList';
 import classes from './Profile.module.css';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 

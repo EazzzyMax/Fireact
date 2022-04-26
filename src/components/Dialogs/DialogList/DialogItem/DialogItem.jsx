@@ -11,7 +11,7 @@ const DialogItem = (props) => {
   return (
     <NavLink to={id} className={({ isActive }) => (isActive ? classes.active : '')}>
       {' '}
-      <div className={classes.dialog}>{props.name}</div>
+      <div className={classes.dialogItem}>{props.name}</div>
     </NavLink>
   );
 };

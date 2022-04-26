@@ -5,20 +5,20 @@ import classes from './DialogList.module.css'
 const DialogList = () => {
   let dialogsData = [
     {
-      name: 'Yra',
       id: '1',
+      name: 'Yra',
     },
     {
-      name: 'Vera',
       id: '2',
+      name: 'Vera',
     },
     {
-      name: 'Lera',
       id: '3',
+      name: 'Lera',
     },
     {
-      name: 'Max',
       id: '4',
+      name: 'Max',
     },
   ];
   

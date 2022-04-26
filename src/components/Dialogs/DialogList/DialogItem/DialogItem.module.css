@@ -1,5 +1,6 @@
 
-.dialog {
+.dialogItem {
+  width: 100%;
   padding-left: 15px;
   display: flex;
   align-items: center;
@@ -8,24 +9,24 @@
   color: white;
 }
 
-.dialog:hover {
+.dialogItem:hover {
   background-color: #39394B;
   cursor: pointer;
 }
 
-.dialog:active {
+.dialogItem:active {
   background-color: #45455C; 
 }
 
-.active .dialog {
+.active .dialogItem {
   background-color: #565673;
 }
-.active .dialog:active {
+.active .dialogItem:active {
   background-color: #66668a;
 }
 
 
-.dialog:not(:first-child):before {
+.dialogItem:not(:first-child):before {
   position: absolute;
   height: 1px;
   width: 100%;

@@ -1,13 +1,14 @@
 import React from 'react';
-import classes from './MyPosts.module.css';
-import Post from './Post/Post';
+import Button from '../../UI/Button/Button';
+import classes from './PostList.module.css';
+import Post from './PostItem/PostItem';
 const MyPosts = () => {
   return (
     <div className={classes.wrapper}>
       <h3>Posts</h3>
       <div className={classes.postForm}>
-        <textarea name="" id=""></textarea>
-        <button>Send</button>
+        <textarea maxlength='445' className={classes.postForm_textArea} name="" id=""></textarea>
+        <Button txt='Post'/>
       </div>
       <div className={classes.posts}>
         <Post message='Hi how are u?' likesCount='11' />
